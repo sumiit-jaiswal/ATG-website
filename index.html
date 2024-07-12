@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>ATG</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="left">
+          <img src="/photos/logo.png" alt="logo" class="logo" />
+        </div>
+        <div class="search-bar">
+          <a href="#">
+            <img
+              src="/photos/search.png"
+              alt="Search Icon"
+              class="search-icon"
+            />
+          </a>
+          <input
+            type="text"
+            placeholder="Search for your favorite groups in ATG"
+          />
+        </div>
+
+        <div class="right">
+          <a href="#" class="create-account" id="create-account-btn"
+            >Create account.
+            <span class="free"
+              >It's free!
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon points="12,16 6,8 18,8" fill="#000" /></svg></span
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <img src="/photos/banner.webp" alt="" class="banner-img" />
+      <div class="overlay">
+        <span class="left-arrow">&lt;</span>
+        <button class="join-group" id="join-group-btn">Join Group</button>
+      </div>
+      <div class="banner-heading">
+        Computer Engineering
+        <span class="msg">142,765 Computer Engineers follow this</span>
+      </div>
+    </div>
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="navbar-left">
+          <span>All Posts(32)</span>
+          <div class="links">
+            <a href="#">Article</a>
+            <a href="#">Event</a>
+            <a href="#">Education</a>
+            <a href="#">Job</a>
+          </div>
+        </div>
+        <div class="navbar-right">
+          <div class="post-dropdown">
+            <button class="write-post">Write a Post ▾</button>
+            <button class="filter-all">Filter: All ▾</button>
+            <!-- Dropdown menu items can be added here -->
+          </div>
+
+          <button class="join-group">
+            <img src="/photos/join-group-icon.png" alt="" />
+            Join Group
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="sections">
+        <div class="section">
+          <img src="/photos/section-img 1.png" alt="Article Image" />
+          <div class="section-content">
+            <div class="section-category">✍️ Article</div>
+            <div class="section-title">
+              What if famous brands had regular fonts? Meet RegulaBrands!
+              <div class="more-options">...</div>
+            </div>
+
+            <div class="section-content">
+              I've worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </div>
+            <div class="section-author">
+              <img src="/photos/pp-1.png" alt="Author" />
+              Sarthak Kamra
+              <div class="section-views">
+                <svg
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.75 6C2.0475 2.7075 5.25 0.375 9 0.375C12.75 0.375 15.9525 2.7075 17.25 6C15.9525 9.2925 12.75 11.625 9 11.625C5.25 11.625 2.0475 9.2925 0.75 6ZM15.615 6C14.3775 3.4725 11.8425 1.875 9 1.875C6.1575 1.875 3.6225 3.4725 2.385 6C3.6225 8.5275 6.1575 10.125 9 10.125C11.8425 10.125 14.3775 8.5275 15.615 6ZM9 4.125C10.035 4.125 10.875 4.965 10.875 6C10.875 7.035 10.035 7.875 9 7.875C7.965 7.875 7.125 7.035 7.125 6C7.125 4.965 7.965 4.125 9 4.125ZM5.625 6C5.625 4.14 7.14 2.625 9 2.625C10.86 2.625 12.375 4.14 12.375 6C12.375 7.86 10.86 9.375 9 9.375C7.14 9.375 5.625 7.86 5.625 6Z"
+                    fill="#525252"
+                  />
+                </svg>
+                1.4k views
+              </div>
+              <div class="share-article">
+                <svg
+                  width="42"
+                  height="36"
+                  viewBox="0 0 42 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="42" height="36" rx="2" fill="#EDEEF0" />
+                  <g clip-path="url(#clip0_1_966)">
+                    <path
+                      d="M25.5 21.06C24.93 21.06 24.42 21.285 24.03 21.6375L18.6825 18.525C18.72 18.3525 18.75 18.18 18.75 18C18.75 17.82 18.72 17.6475 18.6825 17.475L23.97 14.3925C24.375 14.7675 24.9075 15 25.5 15C26.745 15 27.75 13.995 27.75 12.75C27.75 11.505 26.745 10.5 25.5 10.5C24.255 10.5 23.25 11.505 23.25 12.75C23.25 12.93 23.28 13.1025 23.3175 13.275L18.03 16.3575C17.625 15.9825 17.0925 15.75 16.5 15.75C15.255 15.75 14.25 16.755 14.25 18C14.25 19.245 15.255 20.25 16.5 20.25C17.0925 20.25 17.625 20.0175 18.03 19.6425L23.37 22.7625C23.3325 22.92 23.31 23.085 23.31 23.25C23.31 24.4575 24.2925 25.44 25.5 25.44C26.7075 25.44 27.69 24.4575 27.69 23.25C27.69 22.0425 26.7075 21.06 25.5 21.06Z"
+                      fill="#2D2D2D"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_966">
+                      <rect
+                        width="18"
+                        height="18"
+                        fill="white"
+                        transform="translate(12 9)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <img src="/photos/secton-img 3.png" alt="Article Image" />
+          <div class="section-content">
+            <div class="section-category">🔬️ Education</div>
+            <div class="section-title">
+              Tax Benefits for Investment under National Pension Scheme launched
+              by Government
+              <div class="more-options">...</div>
+            </div>
+
+            <div class="section-content">
+              I’ve worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </div>
+            <div class="section-author">
+              <img src="/photos/pp-3.png" alt="Author" />
+              Sarah West
+              <div class="section-views">
+                <svg
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.75 6C2.0475 2.7075 5.25 0.375 9 0.375C12.75 0.375 15.9525 2.7075 17.25 6C15.9525 9.2925 12.75 11.625 9 11.625C5.25 11.625 2.0475 9.2925 0.75 6ZM15.615 6C14.3775 3.4725 11.8425 1.875 9 1.875C6.1575 1.875 3.6225 3.4725 2.385 6C3.6225 8.5275 6.1575 10.125 9 10.125C11.8425 10.125 14.3775 8.5275 15.615 6ZM9 4.125C10.035 4.125 10.875 4.965 10.875 6C10.875 7.035 10.035 7.875 9 7.875C7.965 7.875 7.125 7.035 7.125 6C7.125 4.965 7.965 4.125 9 4.125ZM5.625 6C5.625 4.14 7.14 2.625 9 2.625C10.86 2.625 12.375 4.14 12.375 6C12.375 7.86 10.86 9.375 9 9.375C7.14 9.375 5.625 7.86 5.625 6Z"
+                    fill="#525252"
+                  />
+                </svg>
+                1.4k views
+              </div>
+              <div class="share-article">
+                <svg
+                  width="42"
+                  height="36"
+                  viewBox="0 0 42 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="42" height="36" rx="2" fill="#EDEEF0" />
+                  <g clip-path="url(#clip0_1_966)">
+                    <path
+                      d="M25.5 21.06C24.93 21.06 24.42 21.285 24.03 21.6375L18.6825 18.525C18.72 18.3525 18.75 18.18 18.75 18C18.75 17.82 18.72 17.6475 18.6825 17.475L23.97 14.3925C24.375 14.7675 24.9075 15 25.5 15C26.745 15 27.75 13.995 27.75 12.75C27.75 11.505 26.745 10.5 25.5 10.5C24.255 10.5 23.25 11.505 23.25 12.75C23.25 12.93 23.28 13.1025 23.3175 13.275L18.03 16.3575C17.625 15.9825 17.0925 15.75 16.5 15.75C15.255 15.75 14.25 16.755 14.25 18C14.25 19.245 15.255 20.25 16.5 20.25C17.0925 20.25 17.625 20.0175 18.03 19.6425L23.37 22.7625C23.3325 22.92 23.31 23.085 23.31 23.25C23.31 24.4575 24.2925 25.44 25.5 25.44C26.7075 25.44 27.69 24.4575 27.69 23.25C27.69 22.0425 26.7075 21.06 25.5 21.06Z"
+                      fill="#2D2D2D"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_966">
+                      <rect
+                        width="18"
+                        height="18"
+                        fill="white"
+                        transform="translate(12 9)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <img src="/photos/secton-img 2.png" alt="Article Image" />
+          <div class="section-content">
+            <div class="section-category">✍️ Article</div>
+            <div class="section-title">
+              What if famous brands had regular fonts? Meet RegulaBrands!
+              <div class="more-options">...</div>
+            </div>
+
+            <div class="section-content">
+              I've worked in UX for the better part of a decade. From now on, I
+              plan to rei…
+            </div>
+            <div class="section-author">
+              <img src="/photos/pp-3.png" alt="Author" />
+              Ronal Jones
+              <div class="section-views">
+                <svg
+                  width="18"
+                  height="12"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0.75 6C2.0475 2.7075 5.25 0.375 9 0.375C12.75 0.375 15.9525 2.7075 17.25 6C15.9525 9.2925 12.75 11.625 9 11.625C5.25 11.625 2.0475 9.2925 0.75 6ZM15.615 6C14.3775 3.4725 11.8425 1.875 9 1.875C6.1575 1.875 3.6225 3.4725 2.385 6C3.6225 8.5275 6.1575 10.125 9 10.125C11.8425 10.125 14.3775 8.5275 15.615 6ZM9 4.125C10.035 4.125 10.875 4.965 10.875 6C10.875 7.035 10.035 7.875 9 7.875C7.965 7.875 7.125 7.035 7.125 6C7.125 4.965 7.965 4.125 9 4.125ZM5.625 6C5.625 4.14 7.14 2.625 9 2.625C10.86 2.625 12.375 4.14 12.375 6C12.375 7.86 10.86 9.375 9 9.375C7.14 9.375 5.625 7.86 5.625 6Z"
+                    fill="#525252"
+                  />
+                </svg>
+                1.4k views
+              </div>
+              <div class="share-article">
+                <svg
+                  width="42"
+                  height="36"
+                  viewBox="0 0 42 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="42" height="36" rx="2" fill="#EDEEF0" />
+                  <g clip-path="url(#clip0_1_966)">
+                    <path
+                      d="M25.5 21.06C24.93 21.06 24.42 21.285 24.03 21.6375L18.6825 18.525C18.72 18.3525 18.75 18.18 18.75 18C18.75 17.82 18.72 17.6475 18.6825 17.475L23.97 14.3925C24.375 14.7675 24.9075 15 25.5 15C26.745 15 27.75 13.995 27.75 12.75C27.75 11.505 26.745 10.5 25.5 10.5C24.255 10.5 23.25 11.505 23.25 12.75C23.25 12.93 23.28 13.1025 23.3175 13.275L18.03 16.3575C17.625 15.9825 17.0925 15.75 16.5 15.75C15.255 15.75 14.25 16.755 14.25 18C14.25 19.245 15.255 20.25 16.5 20.25C17.0925 20.25 17.625 20.0175 18.03 19.6425L23.37 22.7625C23.3325 22.92 23.31 23.085 23.31 23.25C23.31 24.4575 24.2925 25.44 25.5 25.44C26.7075 25.44 27.69 24.4575 27.69 23.25C27.69 22.0425 26.7075 21.06 25.5 21.06Z"
+                      fill="#2D2D2D"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_966">
+                      <rect
+                        width="18"
+                        height="18"
+                        fill="white"
+                        transform="translate(12 9)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-sidebar">
+        <div class="location">
+          <div class="location-search">
+            <div class="map-icon">
+              <img src="/photos/map-icon.png" alt="" />
+            </div>
+            <input type="text" placeholder="Enter your location" />
+            <div class="close-btn">
+              <img src="/photos/cross-icon.png" alt="close" />
+            </div>
+          </div>
+          <p>
+            Your location will help us serve better and extend a personalized
+            experience.
+          </p>
+        </div>
+        <div class="recommended-groups">
+          <h5>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 18 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_1263)">
+                <path
+                  opacity="0.3"
+                  d="M15.75 9V7.5H9L10.005 3.495L6.75 6.75V14.25H13.5L15.75 9Z"
+                  fill="black"
+                />
+                <path
+                  d="M6.75 15.75H13.5C14.1225 15.75 14.655 15.375 14.88 14.835L17.145 9.5475C17.2125 9.375 17.25 9.195 17.25 9V7.5C17.25 6.675 16.575 6 15.75 6H11.0175L11.73 2.5725L11.7525 2.3325C11.7525 2.025 11.625 1.74 11.4225 1.5375L10.6275 0.75L5.685 5.6925C5.415 5.9625 5.25 6.3375 5.25 6.75V14.25C5.25 15.075 5.925 15.75 6.75 15.75ZM6.75 6.75L10.005 3.495L9 7.5H15.75V9L13.5 14.25H6.75V6.75ZM0.75 6.75H3.75V15.75H0.75V6.75Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_1263">
+                  <rect width="18" height="18" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            RECOMMENDED GROUPS
+          </h5>
+          <div class="group">
+            <img src="/photos/rg-1.png" alt="Leisure" />
+            <div class="group-name">Leisure</div>
+            <button class="follow-btn">Follow</button>
+          </div>
+          <div class="group">
+            <img src="/photos/rg-2.png" alt="Activism" />
+            <div class="group-name">Activism</div>
+            <button class="follow-btn">Follow</button>
+          </div>
+          <div class="group">
+            <img src="/photos/rg-3.png" alt="MBA" />
+            <div class="group-name">MBA</div>
+            <button class="follow-btn">Follow</button>
+          </div>
+          <div class="group">
+            <img src="/photos/rg-4.png" alt="Philosophy" />
+            <div class="group-name">Philosophy</div>
+            <button class="follow-btn">Follow</button>
+          </div>
+          <div class="see-more">See More...</div>
+        </div>
+      </div>
+    </div>
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <div class="form-heading">
+          <p>
+            Let's learn, share & inspire each other with our passion for
+            computer engineering. Sign up now 🤘🏼
+          </p>
+        </div>
+        <span class="close">&times;</span>
+        <div class="form-sections">
+          <div class="create-account">
+            <form>
+              <h1>Create Account</h1>
+              <div class="full-name">
+                <input type="text" placeholder="First Name" required />
+                <input type="text" placeholder="Last Name" required />
+              </div>
+
+              <input type="email" placeholder="Email" required />
+              <input type="password" placeholder="Password" required />
+              <input type="text" placeholder="Confirm Password" required />
+              <button type="submit">Create Account</button>
+            </form>
+
+            <div class="social-account">
+              <div class="social">
+                <img src="/photos/f_logo_RGB-Blue_1024.png" alt="" />
+                <p>Sign up with Facebook</p>
+              </div>
+              <div class="social">
+                <img src="/photos/google-icon.png" alt="" />
+                <p>Sign up with Google</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-picture">
+            <div>
+              <p>Already have an account? <a href="#">Sign In</a></p>
+            </div>
+            <img src="/photos/atg_illustration.png" alt="" />
+            <div class="t-c">
+              <p>
+                By signing up, you agree to our Terms & conditions, Privacy
+                policy
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //floating button -->
+    <img src="/photos/flt-btn.png" class="floating-button" alt="Floating Button" />
+    <script src="app.js"></script>
+  </body>
+</html>
